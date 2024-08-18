@@ -1,0 +1,83 @@
+/* Elements */
+body {
+    background-color: aquamarine;
+    /* Google fonts */
+    font-size: 12pt;
+    font-weight: 400;
+    color: purple;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: purple;
+    height: auto;
+    padding: 20px;
+    margin: 0px;
+}
+
+main {
+   width: 100vw;
+   padding: 30px 100px;
+   box-sizing: border-box;
+}
+
+hr {
+    height: .3rem;
+    background-color: purple;
+    border: none;
+    margin: 20px 0px 0px;
+}
+
+
+/* Ids */
+
+#mainHeading {
+    color: white;
+    text-align: center;
+}
+
+#tagline {
+    color: white;
+    background-color: purple;
+    text-align: center;
+    height: auto;
+    padding: 20px;
+    margin: 0px;
+}
+
+#caption {
+    text-align: center;
+}
+
+/* Classes */
+.right {
+    float: right;
+    margin-left: 30px;
+}
+
+.left {
+    float: left;
+    margin-right: 30px
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    width: 60%;
+}
+
+.funParagraph {
+    text-align: justify;
+    padding: 30px;;
+}
+
+.bordered {
+    border: 4px solid purple;
+    padding: 0px;
+}
